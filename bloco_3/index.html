@@ -5,13 +5,39 @@
     <meta charset="UTF-8">
     <title>HTML</title>
     <style>
+        body {
+            font-size: 16px;
+        }
+
         h1 {
             font-size: 65px;
             color: orange;
+            font-family: sans-serif;
+        }
+
+        #paragraph {
+            font-weight: 600px;
+            font-size: 48px;
+            font-style: 65px;
+            line-height: normal;
+            text-align: center;
+            text-decoration: wavy;
         }
 
         ul {
             background-color: aqua;
+        }
+
+        #line-one {
+            background-color: yellow;
+        }
+
+        #line-two {
+            background-color: red;
+        }
+
+        #line-three {
+            background-color: brown;
         }
 
         .bg {
@@ -23,19 +49,29 @@
 
 <body>
     <h1>Exercícios 3.2</h1>
-    <p class="bg">Qual é a sua cor favorita?</p>
+    <p class="bg" id="paragraph">Qual é a sua cor favorita?</p>
     <ul class="bg">
-        <li>Amarelo</li>
-        <li>Vermelho</li>
-        <li>Marrom</li>
+        <li id="line-one">Amarelo</li>
+        <li id="line-two">Vermelho</li>
+        <li id="line-three">Marrom</li>
     </ul>
 
     <!-- Exercícios da parte 1
      1 - Modifique o tamanho do h1 para 65 pixels OK
      2 - Modifique a cor do texto do h1 para laranja OK
      3 - Modifique a cor de fundo da lista não ordenada OK
-     4 - Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo
+     4 - Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo ok
     -->
+
+    <!-- Exercícios da parte 2
+     1 - Modifique o família do h1 para sans-serif ok
+     2 - Deixe o parágrafo com o font-weight 600 ok
+     3 - Modifique o font-size do body para 16px ok 
+     4 - Coloque o tamanho do parágrafo com o tamanho de 3 vezes o padrão do body ok
+     5 - Explore as propriedades font-style, line-height, text-align e text-decoration ok
+     6 - Troque a cor de fundo de cada item da lista para a cor correspondente ao texto ok
+    -->
+
 </body>
 
 </html>
