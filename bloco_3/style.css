@@ -1,0 +1,39 @@
+  body {
+            font-size: 16px;
+        }
+
+        h1 {
+            font-size: 65px;
+            color: orange;
+            font-family: sans-serif;
+        }
+
+        #paragraph {
+            font-weight: 600px;
+            font-size: 48px;
+            font-style: 65px;
+            line-height: normal;
+            text-align: center;
+            text-decoration: wavy;
+        }
+
+        ul {
+            background-color: aqua;
+        }
+
+        #line-one {
+            background-color: yellow;
+        }
+
+        #line-two {
+            background-color: red;
+        }
+
+        #line-three {
+            background-color: brown;
+        }
+
+        .bg {
+            background-color: black;
+            color: white;
+        }
