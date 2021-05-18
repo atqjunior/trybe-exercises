@@ -57,4 +57,39 @@
     margin-right: 20%;
 }
 
+.img-manti {
+    display: inline;
+    width: 300px;
+    position: relative;
+}
 
+.img-manti img {
+    margin-bottom: 10px;
+    max-height: 550px;
+    max-width: 800px;
+    object-fit: cover;
+    width: 100%
+}
+
+img {
+    width: 100%;
+}
+
+.footer p {
+    background-color: #030736;
+    color: #F9F3DE;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.section-four li {
+    margin-top: 10px;
+    margin-left: 25px;
+    
+}
+
+.video-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
