@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background-color: #030736;
+    color: #F9F3DE;
+    padding: 30px;
+    height: 50px;       
+}
+
+.hero-title {
+    margin: auto;
+    font-family: 'Noto Serif', serif;
+    text-transform: uppercase;
+}
+
+.navbar {
+    padding: 5px 30px;
+    background-color: #F8DF77;
+    padding: 10px;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 10px;
+}
+
+.navbar-itens {
+    list-style-type: none;
+}
+
+.navbar-itens a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    font-family: 'Time New Roman', serif;
+    text-transform: uppercase;
+}
+
+.article-section{
+    margin: 30px;    
+}
+
+.article-section h2 {
+    margin-bottom: 10px;
+}
+
+.article-section p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.article-section {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
